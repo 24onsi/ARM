@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|c:\\users\\uy122\\source\\repos\\resourcemonitoring\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|c:\\users\\uy122\\source\\repos\\resourcemonitoring\\search.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|solutionrelative:search.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|c:\\users\\uy122\\source\\repos\\resourcemonitoring\\search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|solutionrelative:search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|c:\\users\\uy122\\source\\repos\\resourcemonitoring\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF7731A2-92E5-4C1C-9633-CB0D0D4DA4A9}|ResourceMonitoring.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "search.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\search.xaml.cs",
+              "RelativeDocumentMoniker": "search.xaml.cs",
+              "ToolTip": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\search.xaml.cs",
+              "RelativeToolTip": "search.xaml.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAmwJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:22:00.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "search.xaml",
+              "DocumentMoniker": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\search.xaml",
+              "RelativeDocumentMoniker": "search.xaml",
+              "ToolTip": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\search.xaml",
+              "RelativeToolTip": "search.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T05:22:40.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAuwBMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:12:43.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\uy122\\source\\repos\\ResourceMonitoring\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T05:07:03.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

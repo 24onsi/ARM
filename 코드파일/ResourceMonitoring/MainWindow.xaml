@@ -1,0 +1,87 @@
+﻿<Window x:Class="ResourceMonitoring.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResourceMonitoring"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="657" Width="1075">
+
+    <Grid Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1075"/>
+            <RowDefinition Height="657"/>
+        </Grid.RowDefinitions>
+
+
+        <Rectangle HorizontalAlignment="Left" Height="236" VerticalAlignment="Top" Width="365" Margin="281,40,0,0" RadiusX="10" RadiusY="10" Fill="#FFDEDCD1"/>
+
+
+        <Rectangle HorizontalAlignment="Left" Height="236" VerticalAlignment="Top" Width="365" Margin="681,40,0,0" RadiusX="10" RadiusY="10" Fill="#FFDEDCD1"/>
+
+
+        <Rectangle HorizontalAlignment="Center" Height="289" VerticalAlignment="Top" Width="1026" Margin="0,297,0,0" RadiusX="10" RadiusY="10" Fill="#FFDEDCD1"/>
+
+
+        <Button Width="200" VerticalAlignment="Top" x:Name="btn_search" Margin="28,128,0,0" Height="50" HorizontalAlignment="Left" Content="SEARCH" BorderThickness="1.5,1.5,1.5,1.5" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Background="#FF797979" Click="btn_search_Click" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Label x:Name="cpu" Content="CPU" HorizontalAlignment="Left" Margin="28,303,0,0" VerticalAlignment="Top" Width="129" HorizontalContentAlignment="Center" FontWeight="Bold" Height="50" VerticalContentAlignment="Center" FontSize="25" Foreground="#FF797979"/>
+        <Label x:Name="memory" Content="Memory" HorizontalAlignment="Left" Margin="703,41,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.036,-0.082" HorizontalContentAlignment="Center" FontWeight="Bold" Height="50" VerticalContentAlignment="Center" FontSize="25" Foreground="#FF797979"/>
+        <Label x:Name="disk" Content="Disk" HorizontalAlignment="Left" Margin="285,40,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.036,-0.082" HorizontalContentAlignment="Center" FontWeight="Bold" Height="50" VerticalContentAlignment="Center" FontSize="25" Foreground="#FF797979"/>
+        <Button Width="200" VerticalAlignment="Top" x:Name="btn_exit" Margin="28,201,0,0" Height="50" HorizontalAlignment="Left" Content="EXIT" BorderThickness="1.5,1.5,1.5,1.5" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Background="#FF797979" Click="btn_exit_Click" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Width="200" VerticalAlignment="Top" x:Name="btn_start" Margin="28,52,0,0" Height="50" HorizontalAlignment="Left" Content="START" BorderThickness="1.5,1.5,1.5,1.5" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Background="#FF797979" Click="btn_start_Click" FontSize="20">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <lvc:CartesianChart Grid.Row="0" x:Name="resourceChart" Margin="338,324,37,490" Width="700" Foreground="White">
+            <lvc:CartesianChart.Series>
+
+
+                <lvc:LineSeries Title="CPU" Values="{Binding CpuValues}" PointGeometrySize="5" Stroke="#FFADC6BD" PointForeground="#FF797979">
+                    <lvc:LineSeries.Fill>
+                        <SolidColorBrush Color="#FF819E94" Opacity="0.905"/>
+                    </lvc:LineSeries.Fill>
+                </lvc:LineSeries>
+
+            </lvc:CartesianChart.Series>
+
+        </lvc:CartesianChart>
+
+        <lvc:Gauge x:Name="cpu_graph" Grid.Column="0" Margin="6,369,712,515"
+                   From="0" To="100" Height="170" Stroke="White" ToColor="#FFCB5E3F" FromColor="#FFCB5E3F" Foreground="#FF797979">
+            <lvc:Gauge.GaugeBackground>
+                <SolidColorBrush Color="#FFD0857B" Opacity="0.5"/>
+            </lvc:Gauge.GaugeBackground>
+        </lvc:Gauge>
+        <lvc:Gauge x:Name="memory_graph" Grid.Column="0" Margin="685,82,33,821"
+            From="0" To="100" Width="357" Height="172" FromColor="#FFCB5E3F" ToColor="#FFCB5E3F" Foreground="#FF797979">
+            <lvc:Gauge.GaugeBackground>
+                <SolidColorBrush Color="#FFD0857B" Opacity="0.5"/>
+            </lvc:Gauge.GaugeBackground>
+        </lvc:Gauge>
+        <lvc:Gauge x:Name="disk_graph" Grid.Column="0" Margin="285,84,433,821"
+            From="0" To="100" Width="357" Height="170" FromColor="#FFCB5E3F" ToColor="#FFCB5E3F" Foreground="#FF797979">
+            <lvc:Gauge.GaugeBackground>
+                <SolidColorBrush Color="#FFD0857B" Opacity="0.5"/>
+            </lvc:Gauge.GaugeBackground>
+        </lvc:Gauge>
+
+
+    </Grid>
+</Window>
